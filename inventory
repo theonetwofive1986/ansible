@@ -1,0 +1,8 @@
+[domain]
+dc1
+[fileserver]
+fs1
+[webserver]
+172.16.10.10
+
+
