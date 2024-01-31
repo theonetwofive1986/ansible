@@ -1,3 +1,4 @@
+localhost ansible_connection=local ansible_python_interpreter="/usr/bin/env python3"
 [domain]
 dc1
 [fileserver]
@@ -5,4 +6,5 @@ fs1
 [webserver]
 172.16.10.10
 [workstation]
-
+[linux]
+localhost
