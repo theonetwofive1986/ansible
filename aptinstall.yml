@@ -1,0 +1,15 @@
+---
+
+- hosts: linux
+  become: true
+  tasks:
+  - name: install vim
+    apt:
+      name: vim
+      state: latest
+
+  - name: install nano
+    apt:
+      name: nano
+      state: latest
+      
