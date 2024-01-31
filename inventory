@@ -5,6 +5,6 @@ dc1
 fs1
 [webserver]
 172.16.10.10
-[workstation]
 [linux]
 localhost
+
