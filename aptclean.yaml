@@ -1,0 +1,13 @@
+---
+
+- hosts: linux
+  become: true
+  tasks:
+
+  - name: remove old packages
+    apt:
+      autoclean: yes
+
+  - name: remove dependencies
+    apt:
+      autoremove: yes
