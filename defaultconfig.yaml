@@ -1,0 +1,9 @@
+---
+
+- hosts: linux
+  become: true
+  tasks:
+
+  - name: default config
+    selinux:
+    state: disabled
