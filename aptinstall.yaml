@@ -1,0 +1,10 @@
+---
+
+- hosts: linux
+  become: true
+  tasks:
+
+  - name: install package 
+    apt:
+    - name: vim
+
