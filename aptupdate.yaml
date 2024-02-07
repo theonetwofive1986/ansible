@@ -1,0 +1,9 @@
+---
+
+- hosts: linux
+  become: true
+  tasks:
+
+    - name: update the repo
+      apt:
+        update_cache: yes
