@@ -1,0 +1,10 @@
+---
+
+- hosts: linux
+  become: true
+  tasks:
+
+    - name: install vlc
+      apt:
+        name: vlc
+        state: latest
